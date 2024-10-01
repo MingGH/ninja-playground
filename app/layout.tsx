@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "https://img.996.ninja/ninjutsu/9852f861b31d2d083fdec44a2ff63447.svg",
   },
 };
 
