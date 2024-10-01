@@ -20,7 +20,7 @@ export default function BlurredFooterCard(attr: ImageProps) {
       radius="lg"
     >
       <Image
-        alt=""
+        alt={attr.title}
         className="object-cover"
         src={attr.imageSrc}
         width={`100%`}
