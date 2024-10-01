@@ -1,8 +1,6 @@
-# Next.js & NextUI Template
+# ninja-playground
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
-
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+Used to test a variety of knowledge learned
 
 ## Technologies Used
 
@@ -35,18 +33,14 @@ npm install
 ### Run the development server
 
 ```bash
- yarn run dev 
+npm run dev 
 ```
 
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+### build
 
 ```bash
-public-hoist-pattern[]=*@nextui-org/*
+npm run build 
 ```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
 
 ## License
 
